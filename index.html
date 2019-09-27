@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--==========================================================
+Reach the Front end developer here => +2348166644083
+Subscribe to our channel on youtube @ IT WORKS CHANNEL
+===========================================================-->
+<html lang="en" dir="ltr" manifest="">
+  <head>
+    <!-- Meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="author" content="Adamu Fura Suleiman">
+    <meta name="keywords" content="student, bio, data, student Biodata">
+    <meta name="description" content="School Reg Form For Students Bio Data">
+    <meta name="revised" content="Student Biodata, 20/08/2019">
+    <meta http-equiv="refresh" content="60;url=index.html">
+    <meta name="robots" content="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=yes">
+    <title>Student Bio Data | Form</title>
+    <!-- external links for offline NOTE ==> comment this while online -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" type="icon/x-png" sizes="16*16 "href="images/user-photo.png">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="preconnect" href="font awesome">
+    <!-- online  links -->
+       <!-- NOTE ==> comment out this while online
+    <link rel="stylesheet" type="text/css" href="css link here">
+    <link rel="preconnect" href="font awesome">
+    <link rel="stylesheet" type="text/css" href="bootstrap css link here"> -->
+  <!-- Phones Header color Metadata -->
+    <!-- Android Chrome, Opera and FIreFox -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#d9534f">
+    <!-- IOS Apple Chrome, Opera and FIreFox -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#d9534f">
+    <!-- windows phone -->
+  <meta name="msapplication-navbutton-color" content="#d9534f">
+  <!-- Meta Info for Open Graph => Facebook> -->
+  <!-- Meta Info for Twitter Card View -->
+  <!-- Meta Info for Schema.org => Google.com -->
+  <meta name="format-detection" content="telephone=no">
+  </head>
+  <body style="background-image: url('images/class-photo.jpeg');">
+      <nav class="navbar navbar-inverse" id="topNav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand">SCHOOL NAME</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li> <a href="#">Staff</a> </li>
+            <li class="active"> <a href="#" >Biodata Form</a> </li>
+            <li> <a href="#">Student Portal</a> </li>
+            <li> <a href="#">School Gallery</a> </li>
+            <li> <a href="#">Admission</a> </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container" id="form-holder" >
+        <div class="row" >
+          <div class="col-lg-9 col-lg-offset-1" >
+            <div class="panel panel-default" >
+              <div class="panel-heading" style="background-color:#d9534f;">
+                <h1 id="header-date" onmouseover="show_current_date()"> <img src="images/user-photo.png" alt="">  Student Bio Data Form</h1>
+              </div>
+              <div class="panel-body">
+                <form class="biodata-form" action="index.html" method="post" enctype="application/x-www-form-urlencoded" autocomplete="off" target="_self" accept-charset="utf-8">
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">First Name</label>
+                      <div class="input-group">
+                        <input type="text" name="" inputmode="text" value="" class="form-control" placeholder="Enter First Name*" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-user"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Middle Name</label>
+                      <div class="input-group">
+                        <input type="text" name="" inputmode="text" value="" class="form-control" placeholder="Enter Middle Name">
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Surame</label>
+                      <div class="input-group">
+                        <input type="text" name="" inputmode="text" value="" class="form-control" placeholder="Enter Surname *" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-star"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <select class="form-control" name="">
+                        <option value="">Gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Other</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">E-mail</label>
+                      <div class="input-group">
+                        <input type="email" name="" inputmode="email" value="" class="form-control" placeholder="Enter Email Here*" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-envelope"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Phone Number</label>
+                      <div class="input-group">
+                        <input type="text" name="" inputmode="numeric" value="" class="form-control" placeholder="Enter Phone Number" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-phone-alt"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <legend>Address &amp; Parents Info</legend>
+
+                  <!-- Use PHP to get  Countries -->
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <select class="form-control" name="">
+                        <option value="">Country</option>
+                        <option value="">Nigeria</option>
+                        <option value="">US</option>
+                        <option value="">Uk</option>
+                      </select>
+                    </div>
+                  </div>
+
+                    <!-- Use PHP to get States for different Countries -->
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <select class="form-control" name="">
+                        <option value="">State</option>
+                        <option value="">Gombe</option>
+                        <option value="">Kaduna</option>
+                        <option value="">Kano</option>
+                      </select>
+                    </div>
+                  </div>
+
+                      <!-- Use PHP to get LGAs for different States -->
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <select class="form-control" name="">
+                        <option value="">LGA</option>
+                        <option value="">Gombe</option>
+                        <option value="">Dukku</option>
+                        <option value="">Kwami</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Sponsor Name</label>
+                      <div class="input-group">
+                        <input type="text" name="" inputmode="text" value="" class="form-control" placeholder="Parents / Guidance Name*" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-user"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Sponsor Phone Number</label>
+                      <div class="input-group">
+                        <input type="text" name="" inputmode="numeric" value="" class="form-control" placeholder="Parent/Guidance Phone*" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-phone-alt"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Sponsor Address</label>
+                      <div class="input-group">
+                        <input type="text" name="" value="" class="form-control" placeholder="Parent/Guidance Address*" required>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-map-marker"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <legend>Application &amp; Upload Documents Here in Multiple</legend>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="">Upload Documents</label>
+                      <div class="input-group">
+                        <input type="file" name="" inputmode="text" value="" formenctype="multipart/form-data" class="form-control" accept="application/msword, application/pdf, image/x-png, image/jpeg" required multiple>
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-cloud-upload"></span> </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <select class="form-control" name="">
+                        <option value="">Faculty</option>
+                        <option value="">Physical Sciences</option>
+                        <option value="">Engineering</option>
+                        <option value="">Arts And Social Sciences</option>
+                      </select>
+                    </div>
+                  </div>
+                    <!-- Create a PHP array and function here to get Departments for different Faculties -->
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <select class="form-control" name="">
+                        <option value="">Department</option>
+                        <option value="">Computer Science</option>
+                        <option value="">Mathematics</option>
+                        <option value="">Statistics</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 ">
+                    <div class="form-group">
+                        <input type="reset" name="" value="Reset Data" class="btn btn-block btn-danger" >
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 ">
+                    <div class="form-group">
+                        <input type="submit" name="" value="Submit Data" class="btn btn-block btn-success">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="js/main.js">
+
+      </script>
+  </body>
+</html>

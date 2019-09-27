@@ -1,0 +1,59 @@
+body{
+	background-color: #ddd;
+	margin: 0px;
+}
+header{
+	background-color: #fff;
+	margin: 0px;
+	padding: 12px 15px;
+}
+.header{
+	color: green;
+	margin: 25px 511px;
+	font-variant:bolder;
+}
+
+*{
+	list-style-type: none;
+}
+nav{
+	background-color: green;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li ul li{
+	float: none;
+}
+nav li a{
+	background-color: green;
+	text-decoration: none;
+	padding: 8px 19px;
+	display: inline-block;
+
+}
+nav ul li ul li a{
+	padding: 8px 29px;
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #ff0000;
+	margin: 0;
+	padding: 0 ;
+}
+nav li a:hover{
+	display: block;
+	width: auto;
+	transition: all 0.90s;
+	background-color: #ffaaff;
+	color: blue;
+
+}
+nav ul li:hover ul{
+	display: block;
+
+}
